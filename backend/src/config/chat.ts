@@ -1,0 +1,3 @@
+const SLIDING_WINDOW_SIZE = 6;
+
+export { SLIDING_WINDOW_SIZE };
