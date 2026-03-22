@@ -1,0 +1,8 @@
+const BACKEND_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+
+const SESSION_ID = "test-session-123";
+
+const MAX_ATTACHMENT_COUNT = 5;
+const MAX_ATTACHMENT_SIZE_BYTES = 5 * 1024 * 1024; // 5MB
+
+export { BACKEND_BASE_URL, MAX_ATTACHMENT_COUNT, MAX_ATTACHMENT_SIZE_BYTES, SESSION_ID };
